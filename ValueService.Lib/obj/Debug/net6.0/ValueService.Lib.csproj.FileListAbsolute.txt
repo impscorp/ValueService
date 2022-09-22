@@ -1,0 +1,12 @@
+/Users/jonasvogel/RiderProjects/Number_Format/ValueService.Lib/bin/Debug/net6.0/ValueService.Lib.deps.json
+/Users/jonasvogel/RiderProjects/Number_Format/ValueService.Lib/bin/Debug/net6.0/ValueService.Lib.dll
+/Users/jonasvogel/RiderProjects/Number_Format/ValueService.Lib/bin/Debug/net6.0/ValueService.Lib.pdb
+/Users/jonasvogel/RiderProjects/Number_Format/ValueService.Lib/obj/Debug/net6.0/ValueService.Lib.csproj.AssemblyReference.cache
+/Users/jonasvogel/RiderProjects/Number_Format/ValueService.Lib/obj/Debug/net6.0/ValueService.Lib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jonasvogel/RiderProjects/Number_Format/ValueService.Lib/obj/Debug/net6.0/ValueService.Lib.AssemblyInfoInputs.cache
+/Users/jonasvogel/RiderProjects/Number_Format/ValueService.Lib/obj/Debug/net6.0/ValueService.Lib.AssemblyInfo.cs
+/Users/jonasvogel/RiderProjects/Number_Format/ValueService.Lib/obj/Debug/net6.0/ValueService.Lib.csproj.CoreCompileInputs.cache
+/Users/jonasvogel/RiderProjects/Number_Format/ValueService.Lib/obj/Debug/net6.0/ValueService.Lib.dll
+/Users/jonasvogel/RiderProjects/Number_Format/ValueService.Lib/obj/Debug/net6.0/refint/ValueService.Lib.dll
+/Users/jonasvogel/RiderProjects/Number_Format/ValueService.Lib/obj/Debug/net6.0/ValueService.Lib.pdb
+/Users/jonasvogel/RiderProjects/Number_Format/ValueService.Lib/obj/Debug/net6.0/ref/ValueService.Lib.dll

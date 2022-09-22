@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ValueService/1.0.0": {
+        "dependencies": {
+          "ValueService.Lib": "1.0.0"
+        },
+        "runtime": {
+          "ValueService.dll": {}
+        }
+      },
+      "ValueService.Lib/1.0.0": {
+        "runtime": {
+          "ValueService.Lib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ValueService/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ValueService.Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
