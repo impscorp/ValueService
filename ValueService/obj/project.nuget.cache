@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "OS525QtKVfOqltN7QvtyCrL7GFL0ocPYBBjNGawI2j0u1epRdiLUzXylE9Co5lwbbHxxaEyCHZEw4pcu/yloJQ==",
+  "dgSpecHash": "tT05B0tiXuV+BnfP624FRr5WIznnBvkPbJUVN5RRXcq1wT95qQgLtygW/AZ+Wj9ZToX3wao6zyHLVStjgqSVcQ==",
   "success": true,
-  "projectFilePath": "/Users/jonasvogel/RiderProjects/Number_Format/ValueService/ValueService.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\jonasvogel\\Source\\Repos\\impscorp\\ValueService\\ValueService\\ValueService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jonasvogel\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.7\\microsoft.windowsdesktop.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\jonasvogel\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.7\\microsoft.netcore.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\jonasvogel\\.nuget\\packages\\microsoft.netcore.app.host.win-arm64\\6.0.7\\microsoft.netcore.app.host.win-arm64.6.0.7.nupkg.sha512",
+    "C:\\Users\\jonasvogel\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.7\\microsoft.aspnetcore.app.ref.6.0.7.nupkg.sha512"
+  ],
   "logs": []
 }

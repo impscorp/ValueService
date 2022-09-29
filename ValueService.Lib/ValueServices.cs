@@ -3,9 +3,9 @@ using String = System.String;
 
 namespace ValueService.Lib;
 
-public class ValueService : IValueService
+public class ValueServices : IValueService
 {
-    public ValueService()
+    public ValueServices()
     {
         PostFactors  = new List<PostFactor>()
         {

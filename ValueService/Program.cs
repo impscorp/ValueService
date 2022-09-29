@@ -4,7 +4,7 @@
  *
  */
 
-ValueService.Lib.ValueService vs = new ValueService.Lib.ValueService();
+ValueService.Lib.ValueServices vs = new ValueService.Lib.ValueServices();
 
 try
 {

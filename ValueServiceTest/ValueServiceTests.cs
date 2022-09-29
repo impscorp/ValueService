@@ -5,7 +5,7 @@ public class ValueServiceTest
     [Fact]
     public void CheckPfList() 
     {
-        ValueService.Lib.ValueService vs = new();
+        ValueService.Lib.ValueServices vs = new();
         Assert.Equal(10, vs.PostFactors.Count);
     }
     
@@ -24,7 +24,7 @@ public class ValueServiceTest
     [InlineData(0, "")]
     public void getPotentzFromPostfactor(int? power, string postfactor)
     {
-        ValueService.Lib.ValueService vs = new();
+        ValueService.Lib.ValueServices vs = new();
         Assert.Equal(power, vs.GetPotenz(postfactor));
     }
     
@@ -44,7 +44,7 @@ public class ValueServiceTest
     [InlineData(0.0000000025, "2.5n")]
     public void CheckGetDecimalFromString(decimal result, string input)
     {
-        ValueService.Lib.ValueService vs = new();
+        ValueService.Lib.ValueServices vs = new();
         Assert.Equal(result, vs.GetDecimal(input));
     }
     
@@ -54,7 +54,7 @@ public class ValueServiceTest
     [InlineData("1xx")]
     public void CheckGetDecimalExeption(string input)
     {
-        ValueService.Lib.ValueService vs = new();
+        ValueService.Lib.ValueServices vs = new();
         Assert.Throws<FormatException>(() => vs.GetDecimal(input));
     }
     
@@ -66,7 +66,7 @@ public class ValueServiceTest
     [InlineData(100, "")]
     public void checkGetPostFactor(decimal input, string expected)
     {
-        ValueService.Lib.ValueService vs = new();
+        ValueService.Lib.ValueServices vs = new();
         Assert.Equal(expected, vs.GetPostFactor(input));
     }
     
@@ -79,7 +79,7 @@ public class ValueServiceTest
     [InlineData(154, 2, " ", "154")]
     public void checkGetDisplayValue(decimal value, int precision, string postfactor ,string expected)
     {
-        ValueService.Lib.ValueService vs = new();
+        ValueService.Lib.ValueServices vs = new();
         Assert.Equal(expected, vs.GetDisplayValue(value, precision, postfactor));
     }
     

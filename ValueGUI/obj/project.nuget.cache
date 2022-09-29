@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "IpDywXffdihRFY15DlVoHZbY3uyIKgkM1A/UKxVMIoXvKFsiBypK83BMvgNMNx0QOuRxpafdxMXrCcn9i2VAIw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jonasvogel\\Source\\Repos\\impscorp\\ValueService\\ValueGUI\\ValueGUI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jonasvogel\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.7\\microsoft.windowsdesktop.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\jonasvogel\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.7\\microsoft.netcore.app.ref.6.0.7.nupkg.sha512",
+    "C:\\Users\\jonasvogel\\.nuget\\packages\\microsoft.netcore.app.host.win-arm64\\6.0.7\\microsoft.netcore.app.host.win-arm64.6.0.7.nupkg.sha512",
+    "C:\\Users\\jonasvogel\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.7\\microsoft.aspnetcore.app.ref.6.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}
