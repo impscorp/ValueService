@@ -24,8 +24,15 @@ namespace ValueGUI
         }
         private void button1_Click(object sender, EventArgs e)
         {
-
-            if (UserInputWhitout.Text != String.Empty) result.Text = _vs.GetDisplayValue(Convert.ToDecimal(UserInputWhitout.Text), Convert.ToInt32(precision.Value), (string)comboBox.SelectedValue);  
+            try
+            {
+                if (UserInputWhitout.Text != String.Empty ) result.Text = _vs.GetDisplayValue(Convert.ToDecimal(UserInputWhitout.Text), Convert.ToInt32(precision.Value), (string)comboBox.SelectedValue);
+                else result.Text = string.Empty;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("error wrong format");
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
