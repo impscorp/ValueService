@@ -36,12 +36,13 @@
             this.button2 = new System.Windows.Forms.Button();
             this.result = new System.Windows.Forms.TextBox();
             this.precision = new System.Windows.Forms.NumericUpDown();
+            this.comboBox = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.precision)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(92, 116);
+            this.button1.Location = new System.Drawing.Point(588, 114);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 46);
             this.button1.TabIndex = 0;
@@ -71,6 +72,7 @@
             this.UserInputWhitout.Name = "UserInputWhitout";
             this.UserInputWhitout.Size = new System.Drawing.Size(200, 39);
             this.UserInputWhitout.TabIndex = 6;
+            this.UserInputWhitout.TextChanged += new System.EventHandler(this.TextChanged);
             // 
             // label2
             // 
@@ -83,7 +85,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(588, 116);
+            this.button2.Location = new System.Drawing.Point(92, 114);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(200, 46);
             this.button2.TabIndex = 4;
@@ -93,9 +95,9 @@
             // 
             // result
             // 
-            this.result.Location = new System.Drawing.Point(206, 260);
+            this.result.Location = new System.Drawing.Point(92, 178);
             this.result.Name = "result";
-            this.result.Size = new System.Drawing.Size(426, 39);
+            this.result.Size = new System.Drawing.Size(1074, 39);
             this.result.TabIndex = 7;
             // 
             // precision
@@ -104,12 +106,23 @@
             this.precision.Name = "precision";
             this.precision.Size = new System.Drawing.Size(204, 39);
             this.precision.TabIndex = 8;
+            this.precision.ValueChanged += new System.EventHandler(this.ValueChanged);
+            // 
+            // comboBox
+            // 
+            this.comboBox.FormattingEnabled = true;
+            this.comboBox.Location = new System.Drawing.Point(1020, 60);
+            this.comboBox.Name = "comboBox";
+            this.comboBox.Size = new System.Drawing.Size(146, 40);
+            this.comboBox.TabIndex = 9;
+            this.comboBox.SelectedValueChanged += new System.EventHandler(this.ValueChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1200, 450);
+            this.Controls.Add(this.comboBox);
             this.Controls.Add(this.precision);
             this.Controls.Add(this.result);
             this.Controls.Add(this.UserInputWhitout);
@@ -136,5 +149,6 @@
         private Button button2;
         private TextBox result;
         private NumericUpDown precision;
+        private ComboBox comboBox;
     }
 }

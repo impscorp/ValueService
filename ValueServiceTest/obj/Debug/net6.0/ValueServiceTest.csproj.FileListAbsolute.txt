@@ -101,11 +101,11 @@
 /Users/jonasvogel/RiderProjects/Number_Format/ValueServiceTest/bin/Debug/net6.0/ValueService.Lib.pdb
 C:\Users\jonasvogel\Source\Repos\impscorp\ValueService\ValueServiceTest\bin\Debug\net6.0\CoverletSourceRootsMapping
 C:\Users\jonasvogel\Source\Repos\impscorp\ValueService\ValueServiceTest\bin\Debug\net6.0\testhost.dll
+C:\Users\jonasvogel\Source\Repos\impscorp\ValueService\ValueServiceTest\bin\Debug\net6.0\testhost.exe
+C:\Users\jonasvogel\Source\Repos\impscorp\ValueService\ValueServiceTest\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\jonasvogel\Source\Repos\impscorp\ValueService\ValueServiceTest\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\jonasvogel\Source\Repos\impscorp\ValueService\ValueServiceTest\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
 C:\Users\jonasvogel\Source\Repos\impscorp\ValueService\ValueServiceTest\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
-C:\Users\jonasvogel\Source\Repos\impscorp\ValueService\ValueServiceTest\bin\Debug\net6.0\testhost.exe
-C:\Users\jonasvogel\Source\Repos\impscorp\ValueService\ValueServiceTest\bin\Debug\net6.0\Microsoft.TestPlatform.PlatformAbstractions.dll
 C:\Users\jonasvogel\Source\Repos\impscorp\ValueService\ValueServiceTest\bin\Debug\net6.0\ValueServiceTest.deps.json
 C:\Users\jonasvogel\Source\Repos\impscorp\ValueService\ValueServiceTest\bin\Debug\net6.0\ValueServiceTest.runtimeconfig.json
 C:\Users\jonasvogel\Source\Repos\impscorp\ValueService\ValueServiceTest\bin\Debug\net6.0\ValueServiceTest.dll

@@ -12,4 +12,8 @@
     <ProjectReference Include="..\ValueService.Lib\ValueService.Lib.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Properties\DataSources\" />
+  </ItemGroup>
+
 </Project>
