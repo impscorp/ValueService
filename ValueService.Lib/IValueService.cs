@@ -1,7 +1,13 @@
+using static ValueService.Lib.ValueServices;
+
 namespace ValueService.Lib;
 
 public interface IValueService
 {
+
+    public List<PostFactor> PostFactors { get; }
+
+
     /// <summary>
     /// Converts the given number to a decimal
     /// </summary>

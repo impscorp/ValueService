@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jonasvogel\\Source\\Repos\\impscorp\\ValueService\\ValueGUI\\ValueGUI.csproj": {}
+    "C:\\Users\\jonasvogel\\source\\repos\\impscorp\\ValueService\\ValueGUI\\ValueGUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jonasvogel\\Source\\Repos\\impscorp\\ValueService\\ValueGUI\\ValueGUI.csproj": {
+    "C:\\Users\\jonasvogel\\source\\repos\\impscorp\\ValueService\\ValueGUI\\ValueGUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonasvogel\\Source\\Repos\\impscorp\\ValueService\\ValueGUI\\ValueGUI.csproj",
+        "projectUniqueName": "C:\\Users\\jonasvogel\\source\\repos\\impscorp\\ValueService\\ValueGUI\\ValueGUI.csproj",
         "projectName": "ValueGUI",
-        "projectPath": "C:\\Users\\jonasvogel\\Source\\Repos\\impscorp\\ValueService\\ValueGUI\\ValueGUI.csproj",
+        "projectPath": "C:\\Users\\jonasvogel\\source\\repos\\impscorp\\ValueService\\ValueGUI\\ValueGUI.csproj",
         "packagesPath": "C:\\Users\\jonasvogel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonasvogel\\Source\\Repos\\impscorp\\ValueService\\ValueGUI\\obj\\",
+        "outputPath": "C:\\Users\\jonasvogel\\source\\repos\\impscorp\\ValueService\\ValueGUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonasvogel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\jonasvogel\\Source\\Repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj": {
-                "projectPath": "C:\\Users\\jonasvogel\\Source\\Repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj"
+              "C:\\Users\\jonasvogel\\source\\repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj": {
+                "projectPath": "C:\\Users\\jonasvogel\\source\\repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj"
               }
             }
           }
@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -84,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\jonasvogel\\Source\\Repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj": {
+    "C:\\Users\\jonasvogel\\source\\repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonasvogel\\Source\\Repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj",
+        "projectUniqueName": "C:\\Users\\jonasvogel\\source\\repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj",
         "projectName": "ValueService.Lib",
-        "projectPath": "C:\\Users\\jonasvogel\\Source\\Repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj",
+        "projectPath": "C:\\Users\\jonasvogel\\source\\repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj",
         "packagesPath": "C:\\Users\\jonasvogel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonasvogel\\Source\\Repos\\impscorp\\ValueService\\ValueService.Lib\\obj\\",
+        "outputPath": "C:\\Users\\jonasvogel\\source\\repos\\impscorp\\ValueService\\ValueService.Lib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonasvogel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -119,6 +125,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

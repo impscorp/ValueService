@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jonasvogel\\Source\\Repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj": {}
+    "C:\\Users\\jonasvogel\\source\\repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jonasvogel\\Source\\Repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj": {
+    "C:\\Users\\jonasvogel\\source\\repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonasvogel\\Source\\Repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj",
+        "projectUniqueName": "C:\\Users\\jonasvogel\\source\\repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj",
         "projectName": "ValueService.Lib",
-        "projectPath": "C:\\Users\\jonasvogel\\Source\\Repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj",
+        "projectPath": "C:\\Users\\jonasvogel\\source\\repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj",
         "packagesPath": "C:\\Users\\jonasvogel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonasvogel\\Source\\Repos\\impscorp\\ValueService\\ValueService.Lib\\obj\\",
+        "outputPath": "C:\\Users\\jonasvogel\\source\\repos\\impscorp\\ValueService\\ValueService.Lib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jonasvogel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

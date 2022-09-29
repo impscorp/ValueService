@@ -1,14 +1,15 @@
-using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.Extensions.DependencyInjection;
 using String = System.String;
-
+//datainjection
 namespace ValueService.Lib;
 
 public class ValueServices : IValueService
 {
     public ValueServices()
     {
-        PostFactors  = new List<PostFactor>()
+        PostFactors = new List<PostFactor>()
         {
+            new PostFactor() { Text = "", TextShort = "", Potenz = 0 },
             new PostFactor() { Text = "milli", TextShort = "m", Potenz = -3 },
             new PostFactor() { Text = "mikro", TextShort = "µ", Potenz = -6 },
             new PostFactor() { Text = "nano", TextShort = "n", Potenz = -9 },
@@ -22,9 +23,8 @@ public class ValueServices : IValueService
         };
     }
 
-    public readonly List<PostFactor> PostFactors; 
-       
-    
+    public List<PostFactor> PostFactors { get; }
+
 
     public decimal GetDecimal(string value)
     {
@@ -64,10 +64,9 @@ public class ValueServices : IValueService
 
     }
     
-
-    public string GetDisplayValue(decimal value, int precision, string desiredpf = " ")
+    public string GetDisplayValue(decimal value, int precision, string desiredpf = "")
     {
-        string postFactor = desiredpf != " " ? desiredpf : GetPostFactor(value);
+        string postFactor = desiredpf != "" ? desiredpf : GetPostFactor(value);
         double.TryParse(Convert.ToString(GetPotenz(postFactor)), out var potenz);
         value /= (decimal)Math.Pow(10.00d, potenz);
         value = Math.Round(value, precision);
@@ -99,7 +98,7 @@ public class ValueServices : IValueService
                                                                         element.Potenz == potenz);
         return postfactor != null ? postfactor.TextShort : string.Empty;
     }
-    
+
     public class PostFactor
     {
         public string Text { get; set; } = string.Empty;

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "9eq86TNpDMoNQCsEsEKI+/YkhfmjbGiOv9qJ6azMohPk3MQp4sKx8hIlf2j0VML562W1YbYeVpS/5g3ZNrb25A==",
+  "dgSpecHash": "U+NqzaZNzWwiYNqAHljqcix1xkCATZIy49CLAFrbWXanf4K/n2PKqNZuVIEIlewPz2TKxxI1gOAuoT9i+pdEjg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jonasvogel\\Source\\Repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj",
+  "projectFilePath": "C:\\Users\\jonasvogel\\source\\repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\jonasvogel\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\jonasvogel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\jonasvogel\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\jonasvogel\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.7\\microsoft.windowsdesktop.app.ref.6.0.7.nupkg.sha512",
     "C:\\Users\\jonasvogel\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.7\\microsoft.netcore.app.ref.6.0.7.nupkg.sha512",
     "C:\\Users\\jonasvogel\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.7\\microsoft.aspnetcore.app.ref.6.0.7.nupkg.sha512"
