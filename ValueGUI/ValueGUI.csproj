@@ -17,6 +17,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ValueService.Lib\ValueService.Lib.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Reference Include="ValueService.Lib">
       <HintPath>..\ValueService.Lib\bin\Release\net6.0\ValueService.Lib.dll</HintPath>
     </Reference>
