@@ -14,6 +14,7 @@ namespace ValueGUI
             _vs = ValueService;
             InitializeComponent();
             initComboBox();
+            dataGridView1.DataSource = _vs.PostFactors;
         }
 
         private void initComboBox()
@@ -56,6 +57,21 @@ namespace ValueGUI
         private void TextChanged(object sender, EventArgs e)
         {
             if (result.Text != String.Empty) button1_Click(sender, e);
+        }
+
+        private void comboBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void UserInput_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

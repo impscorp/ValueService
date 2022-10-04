@@ -604,19 +604,6 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
-      },
-      "ValueService.Lib/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "Microsoft.Extensions.DependencyInjection": "6.0.0"
-        },
-        "compile": {
-          "bin/placeholder/ValueService.Lib.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ValueService.Lib.dll": {}
-        }
       }
     }
   },
@@ -1348,17 +1335,11 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
-    },
-    "ValueService.Lib/1.0.0": {
-      "type": "project",
-      "path": "../ValueService.Lib/ValueService.Lib.csproj",
-      "msbuildProject": "../ValueService.Lib/ValueService.Lib.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "Microsoft.Extensions.Hosting >= 6.0.1",
-      "ValueService.Lib >= 1.0.0"
+      "Microsoft.Extensions.Hosting >= 6.0.1"
     ]
   },
   "packageFolders": {
@@ -1387,11 +1368,7 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {
-            "C:\\Users\\jonasvogel\\source\\repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj": {
-              "projectPath": "C:\\Users\\jonasvogel\\source\\repos\\impscorp\\ValueService\\ValueService.Lib\\ValueService.Lib.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

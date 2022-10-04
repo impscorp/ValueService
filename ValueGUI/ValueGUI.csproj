@@ -9,15 +9,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ValueService.Lib\ValueService.Lib.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Folder Include="Properties\DataSources\" />
   </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ValueService.Lib">
+      <HintPath>..\ValueService.Lib\bin\Release\net6.0\ValueService.Lib.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

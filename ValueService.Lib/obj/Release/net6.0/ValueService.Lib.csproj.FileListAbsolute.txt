@@ -1,0 +1,12 @@
+C:\Users\jonasvogel\source\repos\impscorp\ValueService\ValueService.Lib\bin\Release\net6.0\ValueService.Lib.deps.json
+C:\Users\jonasvogel\source\repos\impscorp\ValueService\ValueService.Lib\bin\Release\net6.0\ValueService.Lib.dll
+C:\Users\jonasvogel\source\repos\impscorp\ValueService\ValueService.Lib\bin\Release\net6.0\ValueService.Lib.pdb
+C:\Users\jonasvogel\source\repos\impscorp\ValueService\ValueService.Lib\obj\Release\net6.0\ValueService.Lib.csproj.AssemblyReference.cache
+C:\Users\jonasvogel\source\repos\impscorp\ValueService\ValueService.Lib\obj\Release\net6.0\ValueService.Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonasvogel\source\repos\impscorp\ValueService\ValueService.Lib\obj\Release\net6.0\ValueService.Lib.AssemblyInfoInputs.cache
+C:\Users\jonasvogel\source\repos\impscorp\ValueService\ValueService.Lib\obj\Release\net6.0\ValueService.Lib.AssemblyInfo.cs
+C:\Users\jonasvogel\source\repos\impscorp\ValueService\ValueService.Lib\obj\Release\net6.0\ValueService.Lib.csproj.CoreCompileInputs.cache
+C:\Users\jonasvogel\source\repos\impscorp\ValueService\ValueService.Lib\obj\Release\net6.0\ValueService.Lib.dll
+C:\Users\jonasvogel\source\repos\impscorp\ValueService\ValueService.Lib\obj\Release\net6.0\refint\ValueService.Lib.dll
+C:\Users\jonasvogel\source\repos\impscorp\ValueService\ValueService.Lib\obj\Release\net6.0\ValueService.Lib.pdb
+C:\Users\jonasvogel\source\repos\impscorp\ValueService\ValueService.Lib\obj\Release\net6.0\ref\ValueService.Lib.dll

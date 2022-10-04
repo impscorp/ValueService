@@ -13,4 +13,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ValueGUI
-build_property.ProjectDir = C:\Users\jonasvogel\Source\Repos\impscorp\ValueService\ValueGUI\
+build_property.ProjectDir = C:\Users\jonasvogel\source\repos\impscorp\ValueService\ValueGUI\
